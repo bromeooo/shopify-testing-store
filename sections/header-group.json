@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -15,15 +24,23 @@
           }
         }
       },
-      "block_order": ["announcement-bar-0"],
+      "block_order": [
+        "announcement-bar-0"
+      ],
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
       "blocks": {
-        "kleansweep_countdown_banner_TWJNHT": {
-          "type": "shopify://apps/kleansweep/blocks/countdownBanner/11c982d1-57e9-4a65-915e-e5b45eebc84a",
+        "clean_sweeps_referral_header_ghost_mfPxcH": {
+          "type": "shopify://apps/clean-sweeps/blocks/referralHeaderGhost/3dc8054c-54af-46f2-8c35-b12f06c8adac",
+          "settings": {
+          }
+        },
+        "clean_sweeps_countdown_banner_eArfBB": {
+          "type": "shopify://apps/clean-sweeps/blocks/countdownBanner/3dc8054c-54af-46f2-8c35-b12f06c8adac",
           "settings": {
             "sweepstakeId": "default",
             "enable_sticking": false,
@@ -36,19 +53,15 @@
             "banner_height": 28,
             "carousel_speed": 20
           }
-        },
-        "kleansweep_referral_header_ghost_UUkpWN": {
-          "type": "shopify://apps/kleansweep/blocks/referralHeaderGhost/11c982d1-57e9-4a65-915e-e5b45eebc84a",
-          "settings": {
-            "buy_now_button_class": "shopify-payment-button__button shopify-payment-button__button--unbranded"
-          }
         }
       },
       "block_order": [
-        "kleansweep_countdown_banner_TWJNHT",
-        "kleansweep_referral_header_ghost_UUkpWN"
+        "clean_sweeps_referral_header_ghost_mfPxcH",
+        "clean_sweeps_countdown_banner_eArfBB"
       ],
-      "custom_css": [".header__heading-link .h2 {font-size: 16px;}"],
+      "custom_css": [
+        ".header__heading-link .h2 {font-size: 16px;}"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
@@ -65,5 +78,8 @@
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
