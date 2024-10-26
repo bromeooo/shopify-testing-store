@@ -1,1 +1,71 @@
-{"sections":{"main":{"type":"main-account","settings":{"padding_top":36,"padding_bottom":36}},"1729921688a82b2380":{"type":"apps","blocks":{"kleansweep_account_widget_Ww8Hep":{"type":"shopify:\/\/apps\/kleansweep\/blocks\/accountWidget\/11c982d1-57e9-4a65-915e-e5b45eebc84a","settings":{"table_alignment":"center","custom_title_text":"Sweepstakes Entries Summary","show_title":true,"title_font_size":24,"title_font_picker":"helvetica_n4","title_font_color":"#000000","header_background_color":"#f2f2f2","header_text_color":"#333333","header_font_size":16,"header_font":"helvetica_n4","cell_background_color":"#ffffff","cell_text_color":"#000000","cell_font_size":14,"cell_font":"helvetica_n4","table_width":400,"table_height":150,"no_results_text":"No results","bonus_entry_text":"Bonus Entry Referral URL","bonus_entry_font_size":14,"bonus_entry_font":"helvetica_n4","bonus_entry_font_color":"#000000","bonus_entry_background_color":"#f2f2f2","show_help_text":true,"help_text":"***Note: When someone makes a purchase using your URL to navigate to the store, you will receive bonus entries!"}}},"block_order":["kleansweep_account_widget_Ww8Hep"],"settings":{"include_margins":true}}},"order":["main","1729921688a82b2380"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1729986444680eeeaf": {
+      "type": "apps",
+      "blocks": {
+        "clean_sweeps_account_widget_PVnekF": {
+          "type": "shopify://apps/clean-sweeps/blocks/accountWidget/3dc8054c-54af-46f2-8c35-b12f06c8adac",
+          "settings": {
+            "table_alignment": "center",
+            "custom_title_text": "Sweepstakes Entries Summary",
+            "show_title": true,
+            "title_font_size": 24,
+            "title_font_picker": "helvetica_n4",
+            "title_font_color": "#000000",
+            "header_background_color": "#f2f2f2",
+            "header_text_color": "#333333",
+            "header_font_size": 16,
+            "header_font": "helvetica_n4",
+            "cell_background_color": "#ffffff",
+            "cell_text_color": "#000000",
+            "cell_font_size": 14,
+            "cell_font": "helvetica_n4",
+            "table_width": 400,
+            "table_height": 150,
+            "no_results_text": "No results",
+            "bonus_entry_text": "Bonus Entry Referral URL",
+            "bonus_entry_font_size": 14,
+            "bonus_entry_font": "helvetica_n4",
+            "bonus_entry_font_color": "#000000",
+            "bonus_entry_background_color": "#f2f2f2",
+            "show_help_text": true,
+            "help_text": "***Note: When someone makes a purchase using your URL to navigate to the store, you will receive bonus entries!"
+          }
+        }
+      },
+      "block_order": [
+        "clean_sweeps_account_widget_PVnekF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1729921688a82b2380": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1729986444680eeeaf",
+    "main",
+    "1729921688a82b2380"
+  ]
+}
