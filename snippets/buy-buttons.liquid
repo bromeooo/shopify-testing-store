@@ -98,7 +98,7 @@
             </div>
           </button>
           {%- if show_dynamic_checkout -%}
-            {% comment %} <button
+            <button
               type="button"
               class="product-form__buy-now button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
               id="BuyNowButton-{{ section_id }}"
@@ -120,7 +120,7 @@
                   <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                 </svg>
               </div>
-            </button> {% endcomment %}
+            </button>
           {%- endif -%}
           
         </div>
