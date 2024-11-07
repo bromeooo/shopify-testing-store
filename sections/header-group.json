@@ -34,30 +34,14 @@
     "header": {
       "type": "header",
       "blocks": {
-        "clean_sweeps_referral_header_ghost_mfPxcH": {
+        "clean_sweeps_referral_header_ghost_p8dfBh": {
           "type": "shopify://apps/clean-sweeps/blocks/referralHeaderGhost/3dc8054c-54af-46f2-8c35-b12f06c8adac",
           "settings": {
-          }
-        },
-        "clean_sweeps_countdown_banner_eArfBB": {
-          "type": "shopify://apps/clean-sweeps/blocks/countdownBanner/3dc8054c-54af-46f2-8c35-b12f06c8adac",
-          "settings": {
-            "sweepstakeId": "default",
-            "enable_sticking": false,
-            "banner_color": "#000000",
-            "text_color": "#ffffff",
-            "subtotal_color": "#00ff00",
-            "entries_target_color": "#00ff00",
-            "banner_font": "helvetica_n4",
-            "text_size": 15,
-            "banner_height": 28,
-            "carousel_speed": 20
           }
         }
       },
       "block_order": [
-        "clean_sweeps_referral_header_ghost_mfPxcH",
-        "clean_sweeps_countdown_banner_eArfBB"
+        "clean_sweeps_referral_header_ghost_p8dfBh"
       ],
       "custom_css": [
         ".header__heading-link .h2 {font-size: 16px;}"
